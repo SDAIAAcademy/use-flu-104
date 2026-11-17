@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>أداة كشف المعرِّفات · المختبر 2.2</title>
+<style>
+  body { font-family: "IBM Plex Sans Arabic", system-ui, sans-serif; max-width: 680px; margin: 0 auto; padding: 20px 16px 48px; line-height: 1.8; background: #f6f4ee; color: #1b2540; }
+  h1 { font-size: 24px; margin: 0 0 4px; }
+  p { margin: 8px 0; }
+  .note { background: #ffffff; border: 1px solid #d9d5c8; border-radius: 10px; padding: 10px 14px; font-size: 15px; }
+  textarea { width: 100%; box-sizing: border-box; min-height: 220px; font: inherit; padding: 12px; border: 1px solid #b9b4a4; border-radius: 10px; background: #ffffff; color: inherit; }
+  button { font: inherit; font-weight: 600; padding: 10px 22px; border: 0; border-radius: 10px; background: #0f766e; color: #ffffff; margin: 10px 0; }
+  #verdict { font-weight: 700; font-size: 18px; margin: 12px 0 6px; }
+  #verdict.ok { color: #0f766e; }
+  #verdict.bad { color: #b42318; }
+  table { width: 100%; border-collapse: collapse; background: #ffffff; font-size: 15px; }
+  th, td { border: 1px solid #d9d5c8; padding: 6px 10px; text-align: start; }
+  td.v { direction: ltr; unicode-bidi: isolate; text-align: end; overflow-wrap: anywhere; }
+  td.a { direction: rtl; }
+</style>
+</head>
+<body>
+<h1>أداة كشف المعرِّفات</h1>
+<p>الصق نسختك المقلّصة من طلب المختبر 2.2، ثم اضغط «افحص».</p>
+<p class="note">الأداة تعمل داخل هذه الصفحة وحدها: لا ترسل ما تكتبه إلى أي مكان، ولا تحفظه. وهي للتدريب على المواد الاصطناعية في هذا المقرر، فلا تلصق فيها بيانات حقيقية.</p>
+<textarea id="text" aria-label="النص المراد فحصه"></textarea>
+<button id="run" type="button">افحص</button>
+<div id="verdict" role="status"></div>
+<table id="out" hidden><thead><tr><th>القاعدة</th><th>ما وُجد</th></tr></thead><tbody></tbody></table>
+<p class="note">«لم تجد الأداة معرِّفًا» لا تعني أن النص آمن. الأداة تعرف صيغًا وقوائم، ولا تعرف أن «المراقب الوحيد في تلك البوابة» شخص بعينه. بعد الأداة تأتي عينك.</p>
+<script>
+const RULES = /*RULES*/;
+/*DETECT*/
+document.getElementById('run').addEventListener('click', function () {
+  const found = detect(document.getElementById('text').value, RULES);
+  const verdict = document.getElementById('verdict');
+  const out = document.getElementById('out');
+  const body = out.querySelector('tbody');
+  body.textContent = '';
+  if (!document.getElementById('text').value.trim()) {
+    verdict.textContent = 'لا نص للفحص.'; verdict.className = ''; out.hidden = true; return;
+  }
+  if (!found.length) {
+    verdict.textContent = 'لم تجد الأداة أي معرِّف. راجع النص الآن بعينك.'; verdict.className = 'ok'; out.hidden = true; return;
+  }
+  verdict.textContent = 'عدد ما وجدته الأداة: ' + found.length + '. أزله ثم افحص مرة أخرى.'; verdict.className = 'bad';
+  for (const f of found) {
+    const tr = document.createElement('tr');
+    const a = document.createElement('td'); a.textContent = f.label;
+    const b = document.createElement('td'); b.textContent = f.text; b.className = /[؀-ۿ]/.test(f.text) ? 'a' : 'v';
+    tr.append(a, b); body.append(tr);
+  }
+  out.hidden = false;
+});
+</script>
+</body>
+</html>
