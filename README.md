@@ -124,6 +124,15 @@ node labs/solutions/check.mjs        # يعيد حساب مفتاح كل مخت�
 - [الدليل الاسترشادي لإتلاف البيانات الشخصية وإخفاء الهوية والترميز (سدايا)](https://sdaia.gov.sa/Documents/PersonalDataDestructionAnonymizationAndPseudonymisationGuidelineAR.pdf)
 - [الدليل الإجرائي لمعالجة حوادث تسرب البيانات الشخصية (سدايا)](https://sdaia.gov.sa/ar/SDAIA/about/Documents/PersonalDataBreachIncidents.pdf)
 - [صفحة الأنظمة والسياسات في موقع سدايا](https://sdaia.gov.sa/ar/SDAIA/about/Pages/RegulationsAndPolicies.aspx)
+
+### مراجع فنية
+
+- [OWASP Gen AI Security Project: LLM01:2025 Prompt Injection](https://genai.owasp.org/llmrisk/llm01-prompt-injection/)
+- [Coalition for Content Provenance and Authenticity (C2PA)](https://c2pa.org/)
+- [Content Credentials: أداة التحقق](https://contentcredentials.org/verify)
+- [Presidio: أداة مفتوحة المصدر لكشف المعرِّفات وإخفائها](https://data-privacy-stack.github.io/presidio/)
+- [TinEye: البحث العكسي عن الصور](https://tineye.com/)
+- [Open WebUI: الوثائق](https://docs.openwebui.com/)
 <!-- /academy:sources -->
 
 ### المرجعيات الوطنية

@@ -425,6 +425,35 @@
           "url": "https://sdaia.gov.sa/ar/SDAIA/about/Pages/RegulationsAndPolicies.aspx"
         }
       ]
+    },
+    {
+      "group": "مراجع فنية",
+      "items": [
+        {
+          "title": "OWASP Gen AI Security Project: LLM01:2025 Prompt Injection",
+          "url": "https://genai.owasp.org/llmrisk/llm01-prompt-injection/"
+        },
+        {
+          "title": "Coalition for Content Provenance and Authenticity (C2PA)",
+          "url": "https://c2pa.org/"
+        },
+        {
+          "title": "Content Credentials: أداة التحقق",
+          "url": "https://contentcredentials.org/verify"
+        },
+        {
+          "title": "Presidio: أداة مفتوحة المصدر لكشف المعرِّفات وإخفائها",
+          "url": "https://data-privacy-stack.github.io/presidio/"
+        },
+        {
+          "title": "TinEye: البحث العكسي عن الصور",
+          "url": "https://tineye.com/"
+        },
+        {
+          "title": "Open WebUI: الوثائق",
+          "url": "https://docs.openwebui.com/"
+        }
+      ]
     }
   ]
 }
