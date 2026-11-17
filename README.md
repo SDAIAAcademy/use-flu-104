@@ -5,7 +5,7 @@ Safe Use of AI at Work: Data, Privacy and Deception
 
 مسار الطلاقة في البيانات والذكاء الاصطناعي · أكاديمية سدايا · USE-FLU-104 · المستوى 100
 
-REPLACE: سطر واحد تحت العنوان: ما يستطيع المشارك فعله بعد المقرر
+تصنّف قبل أن تشارك، وتقرأ الشروط قبل أن تكتب، وتقلّل البيانات الشخصية، وتكشف التعليمات المخفية، وتتحقق من الطلب العاجل عبر قناة مستقلة، وتبلّغ عن الخطأ مبكرًا
 
 يتدرب المشاركون على قرارات الاستخدام الآمن التي يكثر فيها الخطأ في العمل. يصنفون عشرة عناصر عمل ويقررون أي فئة من الأدوات يجوز أن تتلقى كلًّا منها، ويقارنون شروط مقدمي الخدمة في التخزين والاستخدام في التدريب، ويقلّلون البيانات الشخصية في طلب إلى الحد الأدنى، ويكتشفون تعليمات مخفية زُرعت في رسالة بريد إلكتروني وصفحة ويب وملف مشترك سيقرؤها مساعد ذكي، وينفذون تحققًا بمعاودة الاتصال على طلب دفع مزيف بالتزييف العميق عبر الصوت والفيديو في محاكاة. ويختمون بتقرير حادثة عن حالة وصلت فيها بيانات سرية إلى أداة غير معتمدة.
 
@@ -30,10 +30,10 @@ REPLACE: سطر واحد تحت العنوان: ما يستطيع المشارك
 
 | الوحدة | العنوان | الجلسات | الشرائح |
 |---|---|---|---|
-| الوحدة 1 | REPLACE: موضوع هذه الوحدة في كلمات قليلة | REPLACE: عنوان الجلسة 1 | [`slides/module1.html`](slides/module1.html) |
-| الوحدة 2 | REPLACE: موضوع هذه الوحدة في كلمات قليلة | REPLACE: عنوان الجلسة 1 | [`slides/module2.html`](slides/module2.html) |
-| الوحدة 3 | REPLACE: موضوع هذه الوحدة في كلمات قليلة | REPLACE: عنوان الجلسة 1 | [`slides/module3.html`](slides/module3.html) |
-| الوحدة 4 | REPLACE: موضوع هذه الوحدة في كلمات قليلة | REPLACE: عنوان الجلسة 1 | [`slides/module4.html`](slides/module4.html) |
+| الوحدة 1 | صنّف قبل أن تشارك | أي أداة يجوز أن تستقبل هذه المادة؟ | [`slides/module1.html`](slides/module1.html) |
+| الوحدة 2 | مصير ما تكتبه، وكيف تقلّله | ماذا يحدث لما تكتبه؟; قلّل ورمّز: أبقِ المهمة وأخرج الشخص | [`slides/module2.html`](slides/module2.html) |
+| الوحدة 3 | تعليمات مخفية في ما يقرؤه المساعد | المحتوى الذي يأمر مساعدك | [`slides/module3.html`](slides/module3.html) |
+| الوحدة 4 | الخداع والإفصاح والحوادث | التزييف العميق والطلب العاجل; الإفصاح، وما تفعله بعد الخطأ | [`slides/module4.html`](slides/module4.html) |
 <!-- /academy:units -->
 
 ## دراسة الحالة
@@ -44,6 +44,15 @@ REPLACE: سطر واحد تحت العنوان: ما يستطيع المشارك
 ## المختبرات
 
 كل مختبر صفحة في `labs/` تُفتح من صفحة المقرر ومن شريحة المختبر في جلسته.
+
+| | الجلسة | المختبر | الملف |
+|---|---|---|---|
+| 1.1 | الوحدة 1 · الجلسة 1 | عشرة عناصر عمل في حِمى | [`M1_1_classify.html`](labs/M1_1_classify.html) |
+| 2.1 | الوحدة 2 · الجلسة 1 | شروط «نسيم» وشروط «مِداد» | [`M2_1_terms.html`](labs/M2_1_terms.html) |
+| 2.2 | الوحدة 2 · الجلسة 2 | قلّل طلبًا عن شكوى زائر | [`M2_2_minimise.html`](labs/M2_2_minimise.html) |
+| 3.1 | الوحدة 3 · الجلسة 1 | ثلاث تعليمات مخفية | [`M3_1_injection.html`](labs/M3_1_injection.html) |
+| 4.1 | الوحدة 4 · الجلسة 1 | مكالمة عاجلة باسم وكيل الرئيس | [`M4_1_callback.html`](labs/M4_1_callback.html) |
+| 4.2 | الوحدة 4 · الجلسة 2 | تقرير حادثة: ملف لُصق في أداة غير معتمدة | [`M4_2_incident.html`](labs/M4_2_incident.html) |
 <!-- /academy:labs -->
 
 ## المتطلبات السابقة
@@ -64,7 +73,18 @@ REPLACE: سطر واحد تحت العنوان: ما يستطيع المشارك
 <!-- academy:sources -->
 ## المصادر
 
-- REPLACE: كل مصدر يستشهد به المقرر مع عنوانه، في course.json ضمن "sources"؛ هذه القائمة تُكتب من هناك
+### المراجع الوطنية
+
+- [نظام حماية البيانات الشخصية](https://sdaia.gov.sa/ar/SDAIA/about/Documents/PersonalDataProtectionLawAr.pdf)
+- [اللائحة التنفيذية لنظام حماية البيانات الشخصية](https://sdaia.gov.sa/ar/SDAIA/about/Documents/ImplementingRegulationPersonalDataProtectionLawAr.pdf)
+- [لائحة نقل البيانات الشخصية إلى خارج المملكة](https://sdaia.gov.sa/Documents/RegulationonPersonalDataAR.pdf)
+- [سياسة تصنيف البيانات (مكتب إدارة البيانات الوطنية)](https://sdaia.gov.sa/ar/SDAIA/about/Documents/DataClassificationPolicyAr.pdf)
+- [مبادئ الذكاء الاصطناعي التوليدي للجهات الحكومية (سدايا)](https://sdaia.gov.sa/ar/SDAIA/about/Files/GenAIGuidelinesForGovernmentARCompressed.pdf)
+- [مبادئ الذكاء الاصطناعي التوليدي للعموم (سدايا)](https://sdaia.gov.sa/ar/SDAIA/about/Files/GenerativeAIPublicAR.pdf)
+- [مبادئ التزييف العميق (سدايا)](https://sdaia.gov.sa/ar/SDAIA/about/Files/File0001.pdf)
+- [الدليل الاسترشادي لإتلاف البيانات الشخصية وإخفاء الهوية والترميز (سدايا)](https://sdaia.gov.sa/Documents/PersonalDataDestructionAnonymizationAndPseudonymisationGuidelineAR.pdf)
+- [الدليل الإجرائي لمعالجة حوادث تسرب البيانات الشخصية (سدايا)](https://sdaia.gov.sa/ar/SDAIA/about/Documents/PersonalDataBreachIncidents.pdf)
+- [صفحة الأنظمة والسياسات في موقع سدايا](https://sdaia.gov.sa/ar/SDAIA/about/Pages/RegulationsAndPolicies.aspx)
 <!-- /academy:sources -->
 
 ### المرجعيات الوطنية
