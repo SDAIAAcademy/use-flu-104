@@ -32,7 +32,10 @@ LAB['1.1'] = () => {
   const k = KEY['1.1'];
   const page = pageText('M1_1_classify.html');
   assert.equal(k.items.length, 10);
-  const allowed = { A: ['عام'], B: ['عام', 'مقيّد'], C: ['عام', 'مقيّد', 'سري'] };
+  // Hima is a government body. SDAIA's Generative AI Guidelines for Government: no data classified
+  // restricted or higher enters a generative AI tool; use is limited to data classified public.
+  // So every tier takes public data only; a restricted item enters the approved tier (B) only
+  // as a minimised version, when what makes it restricted is personal data that minimising removes.
   const count = {};
   for (const [i, it] of k.items.entries()) {
     const body = read('files/items/' + it.file);
@@ -40,19 +43,20 @@ LAB['1.1'] = () => {
     for (const line of body.split('\n').filter(Boolean)) {
       for (const cell of line.split(it.file.endsWith('.csv') ? ',' : '\u0000')) assert.ok(page.includes(squash(cell)), 'item ' + (i + 1) + ' differs from the page: ' + cell);
     }
-    // The key follows the guide and the three rules of the page.
+    // The key follows the guide, the national ceiling and the rules of the page.
     assert.ok(k.levels.includes(it.level));
-    if (it.tier === 'N') {
-      assert.ok(it.level === 'سري للغاية' || /الغضروف|طبي/.test(body), 'item ' + (i + 1) + ': "no tool" needs top secret or health data');
-    } else {
-      assert.ok(allowed[it.tier].includes(it.level), 'item ' + (i + 1) + ': the tier may not receive this level');
-      // The lowest tier that is enough.
-      const lowest = ['A', 'B', 'C'].find((t) => allowed[t].includes(it.level));
-      assert.equal(it.tier, lowest, 'item ' + (i + 1) + ': not the lowest tier that is enough');
-    }
+    assert.notEqual(it.tier, 'C', 'item ' + (i + 1) + ': the local tier is never the lowest tier that is enough');
     const personal = /(?<![0-9])[12][0-9]{9}(?![0-9])|(?<![0-9])05[0-9]{8}(?![0-9])/.test(body);
-    if (it.tier === 'B') assert.equal(it.condition === 'بعد التقليل', personal, 'item ' + (i + 1) + ': the minimisation condition follows the personal data in it');
-    if (it.tier === 'C') assert.equal(it.condition, 'بموافقة مالك البيانات');
+    const health = /الغضروف|طبي/.test(body);
+    const unpublished = /لم يُنشر|محظور النشر|قبل الترسية|التصنيف: سري/.test(body) || it.file.endsWith('.csv');
+    if (it.level === 'عام') assert.equal(it.tier, 'A', 'item ' + (i + 1) + ': public data goes to the lowest tier');
+    if (it.level === 'سري' || it.level === 'سري للغاية' || health) assert.equal(it.tier, 'N', 'item ' + (i + 1) + ': above the national ceiling, no tool');
+    if (it.level === 'مقيّد') {
+      const minimisable = personal && !unpublished;
+      assert.equal(it.tier, minimisable ? 'B' : 'N', 'item ' + (i + 1) + ': restricted enters only as a minimised version, and only when minimising removes what restricts it');
+      assert.equal(it.condition, minimisable ? 'بعد التقليل' : '');
+    }
+    if (it.tier !== 'B') assert.equal(it.condition, '');
     // A label written on the item is followed.
     const label = body.match(/التصنيف: (سري للغاية|سري|مقيّد|عام)/);
     if (label) assert.equal(it.level, label[1], 'item ' + (i + 1) + ': the owner\'s label is followed');
