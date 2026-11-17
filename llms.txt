@@ -1,0 +1,35 @@
+# الاستخدام الآمن للذكاء الاصطناعي في العمل: البيانات والخصوصية والخداع
+
+> تصنّف قبل أن تشارك، وتقرأ الشروط قبل أن تكتب، وتقلّل البيانات الشخصية، وتكشف التعليمات المخفية، وتتحقق من الطلب العاجل عبر قناة مستقلة، وتبلّغ عن الخطأ مبكرًا. مقرر من أكاديمية سدايا، الرمز USE-FLU-104، الإصدار 2027.1.0، بالعربية.
+
+كل شريحة عنوان مثل "#### [day1#slide-id] العنوان": استشهد بالشرائح بهذا المعرّف، وكل استشهاد رابط (slides/day1.html#slide-id). هذه الملفات هي ما يراه المشارك: لا ملاحظات المدرّب فيها ولا مفاتيح الإجابة.
+
+## المقرر
+
+- [صفحة المقرر](https://sdaiaacademy.github.io/use-flu-104/index.md): نظرة عامة ونواتج التعلم والجدول والمختبرات؛ الصفحة نفسها https://sdaiaacademy.github.io/use-flu-104/index.html
+- [المقرر كاملًا](https://sdaiaacademy.github.io/use-flu-104/llms-full.txt): كل وحدة وجلسة وشريحة في ملف واحد، نحو 15,788 من الوحدات النصية
+- [أسئلة التدريب](https://sdaiaacademy.github.io/use-flu-104/practice.html): أسئلة تختبر بها نفسك، مع تعليل بعد كل إجابة
+
+## الشرائح
+
+- [الوحدة 1: صنّف قبل أن تشارك](https://sdaiaacademy.github.io/use-flu-104/slides/module1.md): أربعة مستويات للتصنيف، وثلاث فئات من الأدوات، وقرار واحد قبل كل لصق؛ الجلسات: أي أداة يجوز أن تستقبل هذه المادة؟؛ الصفحة: https://sdaiaacademy.github.io/use-flu-104/slides/module1.html؛ نحو 3,046 من الوحدات النصية
+- [الوحدة 2: مصير ما تكتبه، وكيف تقلّله](https://sdaiaacademy.github.io/use-flu-104/slides/module2.md): ما يُخزَّن وما يُستخدم في التدريب ومن يطّلع، ثم طلب لا يحمل إلا ما تحتاجه المهمة؛ الجلسات: ماذا يحدث لما تكتبه؟، قلّل ورمّز: أبقِ المهمة وأخرج الشخص؛ الصفحة: https://sdaiaacademy.github.io/use-flu-104/slides/module2.html؛ نحو 4,663 من الوحدات النصية
+- [الوحدة 3: تعليمات مخفية في ما يقرؤه المساعد](https://sdaiaacademy.github.io/use-flu-104/slides/module3.md): حقن الأوامر كما يراه المستخدم: أين يختبئ، ولماذا يُتَّبع، وماذا تفعل؛ الجلسات: المحتوى الذي يأمر مساعدك؛ الصفحة: https://sdaiaacademy.github.io/use-flu-104/slides/module3.html؛ نحو 2,767 من الوحدات النصية
+- [الوحدة 4: الخداع والإفصاح والحوادث](https://sdaiaacademy.github.io/use-flu-104/slides/module4.md): صوت وصورة لا يثبتان الهوية، وعلامة منشأ غائبة لا تثبت شيئًا، وخطأ يُبلَّغ عنه فور وقوعه؛ الجلسات: التزييف العميق والطلب العاجل، الإفصاح، وما تفعله بعد الخطأ؛ الصفحة: https://sdaiaacademy.github.io/use-flu-104/slides/module4.html؛ نحو 4,617 من الوحدات النصية
+
+## المختبرات
+
+- [المختبر 1.1: عشرة عناصر عمل في حِمى](https://sdaiaacademy.github.io/use-flu-104/labs/M1_1_classify.md): الوحدة 1، الجلسة 1، 25 دقيقة؛ الصفحة: https://sdaiaacademy.github.io/use-flu-104/labs/M1_1_classify.html
+- [المختبر 2.1: شروط «نسيم» وشروط «مِداد»](https://sdaiaacademy.github.io/use-flu-104/labs/M2_1_terms.md): الوحدة 2، الجلسة 1، 15 دقيقة؛ الصفحة: https://sdaiaacademy.github.io/use-flu-104/labs/M2_1_terms.html
+- [المختبر 2.2: قلّل طلبًا عن شكوى زائر](https://sdaiaacademy.github.io/use-flu-104/labs/M2_2_minimise.md): الوحدة 2، الجلسة 2، 20 دقيقة؛ الصفحة: https://sdaiaacademy.github.io/use-flu-104/labs/M2_2_minimise.html
+- [المختبر 3.1: ثلاث تعليمات مخفية](https://sdaiaacademy.github.io/use-flu-104/labs/M3_1_injection.md): الوحدة 3، الجلسة 1، 20 دقيقة؛ الصفحة: https://sdaiaacademy.github.io/use-flu-104/labs/M3_1_injection.html
+- [المختبر 4.1: مكالمة عاجلة باسم وكيل الرئيس](https://sdaiaacademy.github.io/use-flu-104/labs/M4_1_callback.md): الوحدة 4، الجلسة 1، 15 دقيقة؛ الصفحة: https://sdaiaacademy.github.io/use-flu-104/labs/M4_1_callback.html
+- [المختبر 4.2: تقرير حادثة: ملف لُصق في أداة غير معتمدة](https://sdaiaacademy.github.io/use-flu-104/labs/M4_2_incident.md): الوحدة 4، الجلسة 2، 10 دقائق؛ الصفحة: https://sdaiaacademy.github.io/use-flu-104/labs/M4_2_incident.html
+
+## ملفات السياق
+
+- [context/course.md](https://sdaiaacademy.github.io/use-flu-104/context/course.md): المقرر كاملًا، لمساعد يقبل ملفًا مرفقًا، نحو 15,788 من الوحدات النصية
+- [context/module1.md](https://sdaiaacademy.github.io/use-flu-104/context/module1.md): الوحدة 1، نحو 3,046 من الوحدات النصية
+- [context/module2.md](https://sdaiaacademy.github.io/use-flu-104/context/module2.md): الوحدة 2، نحو 4,663 من الوحدات النصية
+- [context/module3.md](https://sdaiaacademy.github.io/use-flu-104/context/module3.md): الوحدة 3، نحو 2,767 من الوحدات النصية
+- [context/module4.md](https://sdaiaacademy.github.io/use-flu-104/context/module4.md): الوحدة 4، نحو 4,617 من الوحدات النصية
