@@ -63,8 +63,8 @@
       "liveContext": false,
       "basis": "best",
       "confidence": true,
-      "createdAt": 1794918372000,
-      "updatedAt": 1794918372000,
+      "createdAt": 1794969701000,
+      "updatedAt": 1794969701000,
       "slide": 10
     },
     {
@@ -89,18 +89,18 @@
       "scored": true,
       "timer": 30,
       "displayMode": "full",
-      "explanation": "العروض والأسعار قبل الترسية «سري» في دليل حِمى، كُتب ذلك على الجدول أم لم يُكتب. و«سري» فوق السقف الوطني لأدوات الذكاء الاصطناعي التوليدي في الجهات الحكومية، فلا يدخل أي فئة. الملخص يُكتب من الجدول نفسه.",
+      "explanation": "العروض والأسعار قبل الترسية «سري» في دليل حِمى، كُتب ذلك على الجدول أم لم يُكتب. و«سري» فوق السقف الوطني لأدوات الذكاء الاصطناعي التوليدي في الجهات الحكومية، ودليل حِمى لا يُدخله أي فئة. الملخص يُكتب من الجدول نفسه.",
       "misconceptions": [
         "يظن أن غياب الأسماء والبيانات الشخصية يجعل المادة عامة: الأسعار قبل الترسية سرية بأثرها لا بمن ذُكر فيها",
         "يعامل كل مادة داخلية على أنها «مقيّد»: دليل حِمى يضع العروض والأسعار قبل الترسية في «سري»",
-        "يظن أن الأداة المحلية ترفع السقف: في جهة حكومية لا يدخل «سري» أي أداة توليدية، محلية كانت أم لا",
+        "يظن أن الأداة المحلية ترفع السقف: دليل حِمى لا يُدخل «سري» أي أداة توليدية، محلية كانت أم لا",
         ""
       ],
       "liveContext": false,
       "basis": "best",
       "confidence": true,
-      "createdAt": 1794918372000,
-      "updatedAt": 1794918372000,
+      "createdAt": 1794969701000,
+      "updatedAt": 1794969701000,
       "slide": 15
     },
     {
@@ -125,7 +125,7 @@
       "scored": true,
       "timer": 30,
       "displayMode": "full",
-      "explanation": "المادة داخلية لم تُنشر، فهي «مقيّد» ولو خلت من الأسماء. وفي جهة حكومية لا تستقبل أي فئة إلا «عام»، ولا اسم فيه يُحذف فيصير «عامًا». ينتظر النشر.",
+      "explanation": "المادة داخلية لم تُنشر، فهي «مقيّد» ولو خلت من الأسماء. وفي حِمى لا تستقبل أي فئة إلا «عام»، ولا اسم فيه يُحذف فيصير «عامًا». ينتظر النشر.",
       "misconceptions": [
         "يظن أن غياب البيانات الشخصية يجعل المادة عامة: التصنيف يتبع أثر خروج المادة، وهي لم تُنشر",
         "يظن أن المحادثة المؤقتة تغيّر فئة الأداة: الحساب الشخصي فئة أ في كل إعداداته",
@@ -135,8 +135,8 @@
       "liveContext": false,
       "basis": "best",
       "confidence": true,
-      "createdAt": 1794918372000,
-      "updatedAt": 1794918372000,
+      "createdAt": 1794969701000,
+      "updatedAt": 1794969701000,
       "slide": 3
     },
     {
@@ -171,8 +171,8 @@
       "liveContext": false,
       "basis": "best",
       "confidence": true,
-      "createdAt": 1794918372000,
-      "updatedAt": 1794918372000,
+      "createdAt": 1794969701000,
+      "updatedAt": 1794969701000,
       "slide": 9
     },
     {
@@ -207,8 +207,8 @@
       "liveContext": false,
       "basis": "best",
       "confidence": true,
-      "createdAt": 1794918372000,
-      "updatedAt": 1794918372000,
+      "createdAt": 1794969701000,
+      "updatedAt": 1794969701000,
       "slide": 13
     },
     {
@@ -243,8 +243,8 @@
       "liveContext": false,
       "basis": "best",
       "confidence": true,
-      "createdAt": 1794918372000,
-      "updatedAt": 1794918372000,
+      "createdAt": 1794969701000,
+      "updatedAt": 1794969701000,
       "slide": 24
     },
     {
@@ -279,8 +279,8 @@
       "liveContext": false,
       "basis": "best",
       "confidence": true,
-      "createdAt": 1794918372000,
-      "updatedAt": 1794918372000,
+      "createdAt": 1794969701000,
+      "updatedAt": 1794969701000,
       "slide": 3
     },
     {
@@ -315,8 +315,8 @@
       "liveContext": false,
       "basis": "best",
       "confidence": true,
-      "createdAt": 1794918372000,
-      "updatedAt": 1794918372000,
+      "createdAt": 1794969701000,
+      "updatedAt": 1794969701000,
       "slide": 10
     },
     {
@@ -351,8 +351,8 @@
       "liveContext": false,
       "basis": "best",
       "confidence": true,
-      "createdAt": 1794918372000,
-      "updatedAt": 1794918372000,
+      "createdAt": 1794969701000,
+      "updatedAt": 1794969701000,
       "slide": 14
     },
     {
@@ -387,8 +387,8 @@
       "liveContext": false,
       "basis": "best",
       "confidence": true,
-      "createdAt": 1794918372000,
-      "updatedAt": 1794918372000,
+      "createdAt": 1794969701000,
+      "updatedAt": 1794969701000,
       "slide": 3
     },
     {
@@ -423,8 +423,8 @@
       "liveContext": false,
       "basis": "best",
       "confidence": true,
-      "createdAt": 1794918372000,
-      "updatedAt": 1794918372000,
+      "createdAt": 1794969701000,
+      "updatedAt": 1794969701000,
       "slide": 10
     },
     {
@@ -459,8 +459,8 @@
       "liveContext": false,
       "basis": "best",
       "confidence": true,
-      "createdAt": 1794918372000,
-      "updatedAt": 1794918372000,
+      "createdAt": 1794969701000,
+      "updatedAt": 1794969701000,
       "slide": 13
     },
     {
@@ -495,8 +495,8 @@
       "liveContext": false,
       "basis": "best",
       "confidence": true,
-      "createdAt": 1794918372000,
-      "updatedAt": 1794918372000,
+      "createdAt": 1794969701000,
+      "updatedAt": 1794969701000,
       "slide": 20
     },
     {
@@ -531,8 +531,8 @@
       "liveContext": false,
       "basis": "best",
       "confidence": true,
-      "createdAt": 1794918372000,
-      "updatedAt": 1794918372000,
+      "createdAt": 1794969701000,
+      "updatedAt": 1794969701000,
       "slide": 23
     },
     {
@@ -567,8 +567,8 @@
       "liveContext": false,
       "basis": "best",
       "confidence": true,
-      "createdAt": 1794918372000,
-      "updatedAt": 1794918372000
+      "createdAt": 1794969701000,
+      "updatedAt": 1794969701000
     },
     {
       "id": "q-classify-02",
@@ -602,8 +602,8 @@
       "liveContext": false,
       "basis": "best",
       "confidence": true,
-      "createdAt": 1794918372000,
-      "updatedAt": 1794918372000
+      "createdAt": 1794969701000,
+      "updatedAt": 1794969701000
     },
     {
       "id": "q-classify-03",
@@ -637,8 +637,8 @@
       "liveContext": false,
       "basis": "best",
       "confidence": true,
-      "createdAt": 1794918372000,
-      "updatedAt": 1794918372000
+      "createdAt": 1794969701000,
+      "updatedAt": 1794969701000
     },
     {
       "id": "q-classify-04",
@@ -672,8 +672,8 @@
       "liveContext": false,
       "basis": "best",
       "confidence": true,
-      "createdAt": 1794918372000,
-      "updatedAt": 1794918372000
+      "createdAt": 1794969701000,
+      "updatedAt": 1794969701000
     },
     {
       "id": "q-terms-01",
@@ -707,8 +707,8 @@
       "liveContext": false,
       "basis": "best",
       "confidence": true,
-      "createdAt": 1794918372000,
-      "updatedAt": 1794918372000
+      "createdAt": 1794969701000,
+      "updatedAt": 1794969701000
     },
     {
       "id": "q-terms-02",
@@ -742,8 +742,8 @@
       "liveContext": false,
       "basis": "best",
       "confidence": true,
-      "createdAt": 1794918372000,
-      "updatedAt": 1794918372000
+      "createdAt": 1794969701000,
+      "updatedAt": 1794969701000
     },
     {
       "id": "q-terms-03",
@@ -777,8 +777,8 @@
       "liveContext": false,
       "basis": "best",
       "confidence": true,
-      "createdAt": 1794918372000,
-      "updatedAt": 1794918372000
+      "createdAt": 1794969701000,
+      "updatedAt": 1794969701000
     },
     {
       "id": "q-terms-04",
@@ -812,8 +812,8 @@
       "liveContext": false,
       "basis": "best",
       "confidence": true,
-      "createdAt": 1794918372000,
-      "updatedAt": 1794918372000
+      "createdAt": 1794969701000,
+      "updatedAt": 1794969701000
     },
     {
       "id": "q-min-01",
@@ -847,8 +847,8 @@
       "liveContext": false,
       "basis": "best",
       "confidence": true,
-      "createdAt": 1794918372000,
-      "updatedAt": 1794918372000
+      "createdAt": 1794969701000,
+      "updatedAt": 1794969701000
     },
     {
       "id": "q-min-02",
@@ -882,8 +882,8 @@
       "liveContext": false,
       "basis": "best",
       "confidence": true,
-      "createdAt": 1794918372000,
-      "updatedAt": 1794918372000
+      "createdAt": 1794969701000,
+      "updatedAt": 1794969701000
     },
     {
       "id": "q-min-03",
@@ -917,8 +917,8 @@
       "liveContext": false,
       "basis": "best",
       "confidence": true,
-      "createdAt": 1794918372000,
-      "updatedAt": 1794918372000
+      "createdAt": 1794969701000,
+      "updatedAt": 1794969701000
     },
     {
       "id": "q-min-04",
@@ -952,8 +952,8 @@
       "liveContext": false,
       "basis": "best",
       "confidence": true,
-      "createdAt": 1794918372000,
-      "updatedAt": 1794918372000
+      "createdAt": 1794969701000,
+      "updatedAt": 1794969701000
     },
     {
       "id": "q-inj-01",
@@ -987,8 +987,8 @@
       "liveContext": false,
       "basis": "best",
       "confidence": true,
-      "createdAt": 1794918372000,
-      "updatedAt": 1794918372000
+      "createdAt": 1794969701000,
+      "updatedAt": 1794969701000
     },
     {
       "id": "q-inj-02",
@@ -1022,8 +1022,8 @@
       "liveContext": false,
       "basis": "best",
       "confidence": true,
-      "createdAt": 1794918372000,
-      "updatedAt": 1794918372000
+      "createdAt": 1794969701000,
+      "updatedAt": 1794969701000
     },
     {
       "id": "q-inj-03",
@@ -1057,8 +1057,8 @@
       "liveContext": false,
       "basis": "best",
       "confidence": true,
-      "createdAt": 1794918372000,
-      "updatedAt": 1794918372000
+      "createdAt": 1794969701000,
+      "updatedAt": 1794969701000
     },
     {
       "id": "q-inj-04",
@@ -1092,8 +1092,8 @@
       "liveContext": false,
       "basis": "best",
       "confidence": true,
-      "createdAt": 1794918372000,
-      "updatedAt": 1794918372000
+      "createdAt": 1794969701000,
+      "updatedAt": 1794969701000
     },
     {
       "id": "q-fraud-01",
@@ -1127,8 +1127,8 @@
       "liveContext": false,
       "basis": "best",
       "confidence": true,
-      "createdAt": 1794918372000,
-      "updatedAt": 1794918372000
+      "createdAt": 1794969701000,
+      "updatedAt": 1794969701000
     },
     {
       "id": "q-fraud-02",
@@ -1162,8 +1162,8 @@
       "liveContext": false,
       "basis": "best",
       "confidence": true,
-      "createdAt": 1794918372000,
-      "updatedAt": 1794918372000
+      "createdAt": 1794969701000,
+      "updatedAt": 1794969701000
     },
     {
       "id": "q-fraud-03",
@@ -1197,8 +1197,8 @@
       "liveContext": false,
       "basis": "best",
       "confidence": true,
-      "createdAt": 1794918372000,
-      "updatedAt": 1794918372000
+      "createdAt": 1794969701000,
+      "updatedAt": 1794969701000
     },
     {
       "id": "q-fraud-04",
@@ -1232,8 +1232,8 @@
       "liveContext": false,
       "basis": "best",
       "confidence": true,
-      "createdAt": 1794918372000,
-      "updatedAt": 1794918372000
+      "createdAt": 1794969701000,
+      "updatedAt": 1794969701000
     },
     {
       "id": "q-incident-01",
@@ -1267,8 +1267,8 @@
       "liveContext": false,
       "basis": "best",
       "confidence": true,
-      "createdAt": 1794918372000,
-      "updatedAt": 1794918372000
+      "createdAt": 1794969701000,
+      "updatedAt": 1794969701000
     },
     {
       "id": "q-incident-02",
@@ -1302,8 +1302,8 @@
       "liveContext": false,
       "basis": "best",
       "confidence": true,
-      "createdAt": 1794918372000,
-      "updatedAt": 1794918372000
+      "createdAt": 1794969701000,
+      "updatedAt": 1794969701000
     },
     {
       "id": "q-incident-03",
@@ -1337,8 +1337,8 @@
       "liveContext": false,
       "basis": "best",
       "confidence": true,
-      "createdAt": 1794918372000,
-      "updatedAt": 1794918372000
+      "createdAt": 1794969701000,
+      "updatedAt": 1794969701000
     },
     {
       "id": "q-incident-04",
@@ -1372,8 +1372,8 @@
       "liveContext": false,
       "basis": "best",
       "confidence": true,
-      "createdAt": 1794918372000,
-      "updatedAt": 1794918372000
+      "createdAt": 1794969701000,
+      "updatedAt": 1794969701000
     }
   ]
 }

@@ -2,9 +2,9 @@
   "v": 1,
   "engine": "1.0.0",
   "build": {
-    "at": "2026-11-17T12:26:12Z",
+    "at": "2026-11-18T02:41:41Z",
     "version": "2027.1.0",
-    "commit": "d7155f4"
+    "commit": "f81f1ba"
   },
   "lang": "ar",
   "dir": "rtl",
@@ -53,7 +53,7 @@
       "label": "الوحدة 1",
       "title": "صنّف قبل أن تشارك",
       "slides": 18,
-      "words": 1327,
+      "words": 1328,
       "notes": 17,
       "notes_ratio": 0.94,
       "activities": 2,
@@ -93,7 +93,7 @@
           "label": "الجلسة 1",
           "title": "أي أداة يجوز أن تستقبل هذه المادة؟",
           "slides": 14,
-          "words": 1076,
+          "words": 1077,
           "notes": 13,
           "notes_ratio": 0.93,
           "activities": 2,
@@ -137,7 +137,7 @@
       "label": "الوحدة 2",
       "title": "مصير ما تكتبه، وكيف تقلّله",
       "slides": 27,
-      "words": 1997,
+      "words": 1996,
       "notes": 25,
       "notes_ratio": 0.93,
       "activities": 4,
